@@ -1,0 +1,6 @@
+if SHIELD_FRAME84
+
+config ZMK_KEYBOARD_NAME
+    default "frame84"
+
+endif # SHIELD_FRAME84
