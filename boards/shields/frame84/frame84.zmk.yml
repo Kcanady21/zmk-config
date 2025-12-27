@@ -7,13 +7,26 @@ id: frame84
 name: frame84
 type: shield
 
-# Set this to a URL that documents the keyboard.
-url: https://example.com
+url: https://github.com/Kcanady21/zmk-config
 
-# Add any features your keyboard supports here.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
 features:
   - keys
-  - studio  # Remove this line if your keyboard will not support ZMK Studio
+  - studio
+
 requires:
-  - pro_micro
+  - nice_nano_v2
+```
+
+**Key changes from what you had:**
+
+1. Changed `requires: pro_micro` to `requires: nice_nano_v2` - this should match your actual hardware
+2. Kept `studio` in the features list
+3. Updated the URL to point to your actual GitHub repo (optional, but cleaner than "example.com")
+
+**And your `frame84.conf` should be:**
+```
+# Enable USB HID support
+CONFIG_ZMK_USB=y
+
+# Enable ZMK Studio
+CONFIG_ZMK_STUDIO=y
