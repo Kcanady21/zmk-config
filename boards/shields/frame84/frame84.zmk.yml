@@ -26,7 +26,7 @@ requires:
 **And your `frame84.conf` should be:**
 ```
 # Enable USB HID support
-#CONFIG_ZMK_USB=y
+CONFIG_ZMK_USB=y
 
 # Enable ZMK Studio
-#CONFIG_ZMK_STUDIO=y
+CONFIG_ZMK_STUDIO=y
