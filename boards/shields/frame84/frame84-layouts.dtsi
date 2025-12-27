@@ -4,7 +4,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    frame84_layout: frame84_layout {
+    frame84_layout: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
 

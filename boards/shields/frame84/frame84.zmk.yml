@@ -19,4 +19,4 @@ requires:
 
 layouts:
   default_layout:
-    layout: frame84_layout
+    layout: default_layout
