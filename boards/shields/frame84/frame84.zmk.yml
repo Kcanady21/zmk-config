@@ -15,4 +15,8 @@ features:
 
 requires:
   - nice_nano_v2
-```
+
+
+layouts:
+  default_layout:
+    layout: frame84_layout
